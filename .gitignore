@@ -1,0 +1,25 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Python Cache & Bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Datasets (Prevents uploading large data files)
+data/*.csv
+
+# Saved Machine Learning Models (Prevents exceeding GitHub size limits)
+models/*.pkl
+models/*.joblib
+
+# Environment Variables & Secrets
+.env
+
+# IDE & OS System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
